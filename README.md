@@ -1,4 +1,4 @@
-# Polymarket Wallet ROI Project
+# Polymarket Wallet ROI Study
 
 This repository reflects the results from an observational study of a single Polymarket prediction market, *"Will there be a US
 Government shutdown before 2025?"*, asking whether traders who entered the market early earned
