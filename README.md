@@ -28,8 +28,7 @@ and makes the t-statistic, p-value, and confidence interval unreliable. This was
    wallet as either early (`A`) or late (`B`) relative to the configurable splitting timestamp, then uses
    `ROW_NUMBER() OVER (PARTITION BY group_label ORDER BY RANDOM())` to draw a configurable amount of randomly selected wallets
    from each group. If either group falls below a configurable minimum, the
-   query falls back to a second output: daily counts of new traders from the market creation to resolution instead of wallet
-   addresses (providing the user with more information that can be useful to find a better splitting timestamp).
+   query falls back to a second output: daily counts of new traders entering the market, providing the user with information that can be useful when changing the splitting timestamp.
 
 2. **Download the results: `Dune/fetch_query_results_and_save_as_csv.py`.** A short script
    that requests the query's results from Dune's API (query ID & API key need to be set) and saves them
