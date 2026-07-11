@@ -50,7 +50,7 @@ and makes the t-statistic, p-value, and confidence interval unreliable. This was
    $1 each at resolution). Per-wallet results are written to `Polymarket/roi_output.csv`.
 
 4. **Statistical analysis.** The two-sample t-test and t-interval were performed in the report, but
-   not by any script in this repo [stapplet.com](https://stapplet.com/) was used for this stage.
+   not by any script in this repository; [stapplet.com](https://stapplet.com/) was used for this stage.
 
 ## Repository structure
 
