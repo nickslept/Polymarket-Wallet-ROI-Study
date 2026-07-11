@@ -78,8 +78,10 @@ Statistical Report - Polymarket Wallet ROI.pdf      # Final report (containing a
 4. Run `Polymarket/roi_calculator.py` to fetch, cache, and compute the ROI for every wallet.
 
 The only third-party dependency is `requests` (`pip install requests`); everything else is
-Python standard library. Warning: I built this as a one-off analysis... paths are hardcoded
-and the scripts target one specific market.
+Python standard library. 
+
+> **Warning: I built this as a one-off analysis, and I did not intend other users to really use any of the code... paths are hardcoded
+and the scripts target one specific market.**
 
 ## Data sources
 
