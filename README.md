@@ -9,7 +9,7 @@ before December 17, 2024 at 7:00 PM EST, a hand-picked timestamp just before pub
 rapidly flipped the market's expected outcome. From each group, two independent simple random
 samples of 250 wallets were drawn. The code in this repository identifies and samples
 those wallets via an SQL query on Dune, reconstructs each sampled wallet's trade history (on this market) through
-Polymarket's public API, and computes per-wallet ROI to be analyzed and commented on
+Polymarket's public data API, and computes per-wallet ROI to be analyzed and commented on
 in the accompanying report.
 
 ## Findings at a glance
